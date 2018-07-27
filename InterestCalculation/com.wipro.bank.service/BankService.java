@@ -15,7 +15,8 @@ public class BankService {
 			else
 			{
 				BankValidationException B=new BankValidationException();
-				B.toString();
+				Sout(B.toString());
+				throw new Exception();
 			}
 		}
 		catch(Exception e)
